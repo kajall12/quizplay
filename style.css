@@ -1,0 +1,616 @@
+/* Global */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Common page style */
+.page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://www.freepik.com/free-psd/3d-rendering-questions-background_194715148.htm#fromView=keyword&page=1&position=1&uuid=5b628d23-4f2b-41b1-a2bc-c052effdb36f&query=Quiz+game+background") no-repeat center center/cover;
+}
+
+/* Center container */
+.center {
+  text-align: center;
+}
+
+/* Card design */
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.card h2, .card h3, .card p {
+  margin: 15px 0;
+}
+
+/* Input */
+input {
+  padding: 10px;
+  width: 80%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Option buttons */
+#options button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  background: #eee;
+}
+
+#options button:hover {
+  background: #ddd;
+}
+
+/* Next button */
+#nextBtn {
+  background: #007bff;
+  color: white;
+  display: none;
+}
+/* General reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+/* Name Page with background */
+#namePage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("https://www.freepik.com/free-psd/3d-rendering-questions-background_194715148.htm#fromView=keyword&page=1&position=1&uuid=5b628d23-4f2b-41b1-a2bc-c052effdb36f&query=Quiz+game+background") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+}
+
+/* Quiz Page with full background */
+#quizPage {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("https://www.freepik.com/free-psd/3d-rendering-questions-background_194715148.htm#fromView=keyword&page=1&position=1&uuid=5b628d23-4f2b-41b1-a2bc-c052effdb36f&query=Quiz+game+background") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Result Page */
+#resultPage {
+  display: none;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("https://www.freepik.com/free-psd/3d-rendering-questions-background_194715148.htm#fromView=keyword&page=1&position=1&uuid=5b628d23-4f2b-41b1-a2bc-c052effdb36f&query=Quiz+game+background") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #ff9800;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background: #e68900;
+}
+
+.optionBtn {
+  display: block;
+  margin: 8px auto;
+  padding: 10px 20px;
+  background: #2196f3;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  width: 220px;
+}
+.optionBtn:hover {
+  background: #0b7dda;
+}
+/* General reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  color: white;   /* 👈 sab text white */
+}
+
+/* Name Page with background */
+#namePage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  color: white;   /* 👈 sab text white */
+}
+
+/* Name Page with background */
+#namePage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("enter-bg.jpg") no-repeat center center/cover;
+  text-align: center;
+}
+
+/* Quiz Page with full background */
+#quizPage {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("quiz-bg.jpg") no-repeat center center/cover;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Result Page */
+#resultPage {
+  display: none;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("result-bg.jpg") no-repeat center center/cover;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #ff9800;
+  color: rgb(20, 19, 19);
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background: #e68900;
+}
+
+.optionBtn {
+  display: block;
+  margin: 8px auto;
+  padding: 10px 20px;
+  background: #2196f3;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  width: 220px;
+}
+
+/* Quiz Page with full background */
+#quizPage {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("quiz-bg.jpg") no-repeat center center/cover;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Result Page */
+#resultPage {
+  display: none;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("result-bg.jpg") no-repeat center center/cover;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #ff9800;
+  color: rgb(118, 56, 56);
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background: #171615;
+}
+
+.optionBtn {
+  display: block;
+  margin: 8px auto;
+  padding: 10px 20px;
+  background: #2196f3;
+  border: none;
+  border-radius: 5px;
+  color: rgb(41, 35, 35);
+  cursor: pointer;
+  width: 220px;
+}
+.optionBtn:hover {
+  background: #0b7dda;
+}
+/* General reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  color: black;   /* 👈 sab text black */
+}
+
+/* Name Page with background */
+#namePage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: 
+    linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), /* thoda white transparent */
+    url("enter-bg.jpg") no-repeat center center/cover;
+  text-align: center;
+}
+
+/* Quiz Page with full background */
+#quizPage {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: 
+    linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+    url("quiz-bg.jpg") no-repeat center center/cover;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Result Page */
+#resultPage {
+  display: none;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: 
+    linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+    url("result-bg.jpg") no-repeat center center/cover;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  color: black; /* input text bhi black */
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #ff9800;
+  color: white;   /* button ka text white hi rahe */
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background: #e68900;
+}
+
+.optionBtn {
+  display: block;
+  margin: 8px auto;
+  padding: 10px 20px;
+  background: #2196f3;
+  border: none;
+  border-radius: 5px;
+  color: white;   /* option button ka text white rahega */
+  cursor: pointer;
+  width: 220px;
+}
+.optionBtn:hover {
+  background: #0b7dda;
+}
+ body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      height: 100%;
+      color: black; /* Text black */
+    }
+
+    /* Enter Name Page */
+    #namePage {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: #e6ccff; /* Light purple */
+      text-align: center;
+    }
+
+    /* Quiz Page */
+    #quizPage {
+      display: none;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: #e6ccff; /* Light purple */
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Result Page */
+    #resultPage {
+      display: none;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: #e6ccff; /* Light purple */
+      text-align: center;
+    }
+
+    input {
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      border: none;
+      font-size: 16px;
+      text-align: center;
+      color: black;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 5px;
+      background: #9c27b0; /* Purple button */
+      color: rgb(20, 19, 19);
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background: #7b1fa2;
+    }
+
+    .optionBtn {
+      display: block;
+      margin: 8px auto;
+      padding: 10px 20px;
+      background: #673ab7;
+      border: none;
+      border-radius: 5px;
+      color: rgb(30, 28, 28);
+      cursor: pointer;
+      width: 220px;
+    }
+    .optionBtn:hover {
+      background: #512da8;
+    }
+#question {
+  color: black;   /* Question black */
+}
+
+.optionBtn {
+  display: block;
+  margin: 8px auto;
+  padding: 10px 20px;
+  background: #d1b3ff;  /* light purple background */
+  border: none;
+  border-radius: 5px;
+  color: black;   /* text black */
+  cursor: pointer;
+  width: 220px;
+  font-weight: bold;
+}
+.optionBtn:hover {
+  background: #b380ff;  /* darker purple hover */
+  color: white;         /* hover par white ho jaye */
+}
+#namePage h1, 
+#namePage h2,
+#namePage label {
+  color: black;   /* 👈 enter name & welcome text black */
+}
+/* Welcome text black fix */
+#namePage h2 {
+  color: black !important;
+}
+/* Welcome text fix */
+#namePage h2 {
+  color: black !important;
+}
+
+/* Result page fix */
+#resultPage h2, 
+#resultPage p {
+  color: black !important;
+}
+/* ✅ Safe fix */
+#welcomeText,
+#progress,
+#question {
+  color: black !important;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: lavender;  /* light purple background */
+  text-align: center;
+  padding: 30px;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: purple;
+  color: white;
+  font-size: 16px;
+}
+/* Default styles (Laptop/Desktop) */
+body {
+  font-size: 18px;
+  background-color: lightblue;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+}
+
+/* Phone / Small Screen */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    background-color: lightgreen;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+/* Extra small screens (mobile portrait) */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+    background-color: lightyellow;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}
